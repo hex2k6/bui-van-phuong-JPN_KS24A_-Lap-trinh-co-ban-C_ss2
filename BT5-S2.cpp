@@ -1,15 +1,19 @@
 #include<stdio.h>
 
+#include<stdio.h>
+
 int main() {
-    const float PI = 3.14; 
-    int banKinh = 5;       
-    printf("Gia tri ban kinh hinh tron = %d \n", banKinh);
+    int chieuDai = 10;
+    int chieuRong = 5;
 
-    float chuVi = 2 * PI * banKinh;
-    printf("Chu vi hinh tron = %.2f \n", chuVi);
+    printf("Chieu dai hinh chu nhat = %d \n", chieuDai);
+    printf("Chieu rong hinh chu nhat = %d \n", chieuRong);
 
-    float dienTich = PI * banKinh * banKinh;
-    printf("Dien tich hinh tron = %.2f \n", dienTich);
+    int chuVi = 2 * (chieuDai + chieuRong);
+    printf("Chu vi hinh chu nhat = %d \n", chuVi);
+
+    int dienTich = chieuDai * chieuRong;
+    printf("Dien tich hinh chu nhat = %d \n", dienTich);
 
     return 0;
 }
